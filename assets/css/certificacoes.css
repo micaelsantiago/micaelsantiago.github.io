@@ -1,7 +1,9 @@
 .certificacoes__conteudo {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
 }
 
 .certificacoes__conteudo figure {
@@ -19,4 +21,10 @@
 
 .certificacoes__conteudo figcaption span {
 	color: var(--color__purple)
+}
+
+@media (min-width: 765px) {
+	.certificacoes__conteudo {
+		justify-content: space-between
+	}
 }
