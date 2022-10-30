@@ -3,156 +3,217 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/global.css">
+	<link rel="stylesheet" href="assets/css/header.css">
+	<link rel="stylesheet" href="assets/css/apresentacao.css">
+	<link rel="stylesheet" href="assets/css/sobre.css">
+	<link rel="stylesheet" href="assets/css/skills.css">
+	<link rel="stylesheet" href="assets/css/projetos.css">
+	<link rel="stylesheet" href="assets/css/certificacoes.css">
 	<title>Micael Santiago | Front-End Developer</title>
 </head>
 <body>
 	<header>
-		<div id="header_container">
-			<div id="header_logo">
-				<span>Micael</span>
-			</div>
+		<div class="header__container container">
+			<span>Micael</span>
 
-			<div id="header_nav">
+			<div class="header__nav">
 				<nav>
-					<div id="menu_mobile">
+					<div id="menu__mobile">
 						<div class="row"></div>
 						<div class="row"></div>
 						<div class="row"></div>
 					</div>
+
 					<ul>
-						<li><a href="#sobre">Quem sou?</a></li>
+						<li><a href="#sobre">Sobre mim</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#projetos">Projetos</a></li>
+						<li><a href="#certificacoes">Certificações</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</header>
 
-	<section id="apresentacao">
-		<div id="section_container">
-			<div id="section_apresentacao">
-				<h1>Eu sou o <span>Micael</span>.</h1>
-
-				<h2>Desenvolvedor Front-End  &#x1F680</h2>
-
-				<a href="assets/download/CV.pdf" download="CV Micael Santiago">Um pouco mais...</a>
+	<section>
+		<div class="apresentacao__container container">
+			<div class="apresentacao__image">
+				<img src="assets/images/desenho_dev.svg" alt="">
 			</div>
 
-			<div id="section_image">
-				<img src="assets/images/desenho_dev.svg">
-			</div>
+			<div class="apresentacao__descricao">
+					<h1>Me chamo <span>Micael</span>.</h1>
+					<h2>Desenvolvedor Front-End  &#x1F680</h2>
+					<a href="assets/pdf/curriculo.pdf" download="CV Micael Santiago">Me conheça...</a>
+				</div>
 		</div>
 	</section>
 
-	<section id="sobre">
-		<div id="sobre_container">
-			<div id="sobre_titulo">
-				<h3>Sobre mim</h3>
-				<div class="line_text"></div>
+	<section class="light" id="sobre">
+		<div class="sobre__container container">
+			<div class="sobre__titulo">
+				<h2>Sobre mim</h2>
+				<div class="line__text"></div>
 			</div>
 
-			<div id="sobre_conteudo">
+			<div class="sobre__conteudo">
 				<p>
 					Meu nome é <b>Micael Santiago</b> e sou <b>Desenvolvedor Front-End</b>. Conheci essa área aos <b>15 anos</b> e desde então venho aprendendo cada dia mais sobre a Web! <br>
 					Meu primeiro contato com a programação foi no <b>Ensino Médio Técnico</b> onde eu cursei <b>Desenvolvimento de Sistemas</b> e primeira linguagem que tive contato foi a <b>Python</b>! &#x1F40D
 				</p>
 
 				<a href="https://www.linkedin.com/in/micael-santiago-959830210/" target="_blank" class="social">
-					<img src="assets/images/linkedin.png" alt="">
+					<img src="assets/images/linkedin.svg" alt="">
 				</a>
 				<a href="https://github.com/micaelsantiago" target="_blank" class="social">
-					<img src="assets/images/github.png" alt="">
+					<img src="assets/images/github.svg" alt="">
 				</a>
 			</div>
 		</div>
 	</section>
 
-	<section id="skills">
-		<div id="skills_container">
-			<div id="skills_titulo">
-				<h3>Skills</h3>
-				<div class="line_text"></div>
+	<section class="dark" id="skills">
+		<div class="skills__container container">
+			<div class="skills__titulo">
+				<h2>Skills</h2>
+				<div class="line__text"></div>
 			</div>
 
-			<div id="skills_conteudo">
-				<div class="skill_cards">
-					<img src="assets/images/html.svg" alt="">
-					<span>HTML5</span>
-				</div>
+			<div class="skills__conteudo">
+				<figure>
+					<img src="assets/images/html5.svg" alt="">
+					<figcaption>HTML5</figcaption>
+				</figure>
 
-				<div class="skill_cards">
-					<img src="assets/images/css.svg" alt="">
-					<span>CSS3</span>
-				</div>
+				<figure>
+					<img src="assets/images/css3.svg" alt="">
+					<figcaption>CSS3</figcaption>
+				</figure>
 
-				<div class="skill_cards">
+				<figure>
 					<img src="assets/images/javascript.svg" alt="">
-					<span>JavaScript</span>
-				</div>
+					<figcaption>JavaScript</figcaption>
+				</figure>
+
+				<figure>
+					<img src="assets/images/bootstrap.svg" alt="">
+					<figcaption>Bootstrap 5</figcaption>
+				</figure>
+
+				<figure>
+					<img src="assets/images/git.svg" alt="">
+					<figcaption>Git</figcaption>
+				</figure>
+
+				<figure>
+					<img src="assets/images/github.svg" alt="">
+					<figcaption>Github</figcaption>
+				</figure>
 			</div>
 		</div>
 	</section>
 
-	<section id="projetos">
-		<div id="projetos_container">
-			<div id="projetos_titulo">
-				<h3>Projetos</h3>
-				<div class="line_text"></div>
+	<section class="light" id="projetos">
+		<div class="projetos__container container">
+			<div class="projetos__titulo">
+				<h2>Projetos</h2>
+				<div class="line__text"></div>
 			</div>
 
-			<div id="projetos_conteudo">
-				<div class="projeto_card">
-					<figure>
-						<img src="assets/images/esound.png" alt="">
-						<figcaption>Esound - Clone</figcaption>
-					</figure>
-					<a href="https://github.com/micaelsantiago/esound_clone" target="_blank">Repositório</a>
-				</div>
+			<div class="projetos__conteudo">
+				<figure>
+					<a href="https://cards-responsivos-two.vercel.app/" target="_blank">
+						<img src="assets/images/projeto_cardResponsivo.png" alt="">
+					</a>
+					<figcaption>
+						<h3>Cards Responsivos</h3>
+						<a href="https://github.com/micaelsantiago/cards_responsivos" target="_blank">Repositório</a>
+					</figcaption>
+				</figure>
 
-				<div class="projeto_card">
-					<figure>
-						<img src="assets/images/cards.png" alt="">
-						<figcaption>Cards Responsivos</figcaption>
-					</figure>
-					<a href="https://github.com/micaelsantiago/cards_responsivos" target="_blank">Repositório</a>
-				</div>
+				<figure>
+					<a href="https://frontend-mentor-nft-omega.vercel.app/" target="_blank">
+						<img src="assets/images/projeto_nftCard.png" alt="">
+					</a>
+					<figcaption>
+						<h3>NFT Preview Card Component</h3>
+						<a href="https://github.com/micaelsantiago/Frontend_Mentor-NFT" target="_blank">Repositório</a>
+					</figcaption>
+				</figure>
 
-				<div class="projeto_card">
-					<figure>
-						<img src="assets/images/login.png" alt="">
-						<figcaption>Tela de Login para Comunidades</figcaption>
-					</figure>
-					<a href="https://github.com/micaelsantiago/login-world-the-games" target="_blank">Repositório</a>
-				</div>
+				<figure>
+					<a href="https://product-preview-card-component-beryl-eta.vercel.app/" target="_blank">
+						<img src="assets/images/projeto_productCard.png" alt="">
+					</a>
+					<figcaption>
+						<h3>Product Preview Card Component</h3>
+						<a href="https://github.com/micaelsantiago/ProductPreviewCardComponent" target="_blank">Repositório</a>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<a href="https://login-simples-nu.vercel.app/" target="_blank">
+						<img src="assets/images/projeto_telaLogin.png" alt="">
+					</a>
+					<figcaption>
+						<h3>Tela de Login Simples</h3>
+						<a href="https://github.com/micaelsantiago/login_simples" target="_blank">Repositório</a>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<a href="https://order-summary-component-zeta-roan.vercel.app/" target="_blank">
+						<img src="assets/images/projeto_orderSummary.png" alt="">
+					</a>
+					<figcaption>
+						<h3>Order Summary Component</h3>
+						<a href="https://github.com/micaelsantiago/Frontend_Mentor-OrderSummaryComponent" target="_blank">Repositório</a>
+					</figcaption>
+				</figure>
+
+				<figure>
+					<a href="https://frontend-mentor-qrc-ode.vercel.app/" target="_blank">
+						<img src="assets/images/projeto_qrCode.png" alt="">
+					</a>
+					<figcaption>
+						<h3>QR Code Card</h3>
+						<a href="https://github.com/micaelsantiago/Frontend_Mentor-QRCode" target="_blank">Repositório</a>
+					</figcaption>
+				</figure>
+
+				<p>Para mais projetos, acesse o meu <a href="https://github.com/micaelsantiago" target="_blank">repositório no Github!</a></p>
 			</div>
 		</div>
 	</section>
 
-	<footer>
-		<div id="footer_container">
-			<div id="footer_titulo">
-				<h3>Informações</h3>
-				<div class="line_text"></div>
+	<section class="dark" id="certificacoes">
+		<div class="certificacoes__container container">
+			<div class="certificacoes__titulo">
+				<h2>Certificações</h2>
+				<div class="line__text"></div>
 			</div>
 
-			<div id="footer_conteudo">
-				<div id="footer_email">
-					<span>Email:</span>
-					<a href="mailto:santiagoo.micael04@gmail.com">santiagoo.micael04@gmail.com</a>
-				</div>
+			<div class="certificacoes__conteudo">
+				<figure>
+					<img src="assets/images/certificado1.jpg" alt="">
+					<figcaption>
+						<h3>HTML5 e CSS</h3>
+						<p>Curso da <span>B7Web</span> com carga horária de <span>89 horas</span></p>
+					</figcaption>
+				</figure>
 
-				<div id="footer_telefone">
-					<span>Telefone:</span>
-					<a href="tel:+5581988297147">+55 (81) 98829-7147</a>
-				</div>
+				<figure>
+					<img src="assets/images/certificado2.jpg" alt="">
+					<figcaption>
+						<h3>Lógica de Proramação Essencial</h3>
+						<p>Curso da <span>Digital Inovation One</span> com carga horária de <span>4 horas</span></p>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-	</footer>
+	</section>
+
 	<script src="assets/js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.skills__conteudo {
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px
+}
+
+.skills__conteudo figure {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 120px;
+	padding: 1rem;
+	border-radius: 6px;
+	background: var(--color__white);
+	transition: all 0.4s linear;
+	cursor: pointer
+}
+
+.skills__conteudo figure:hover {
+	background: var(--color__purple)
+}
+
+.skills__conteudo figure img {
+	width: 40px
+}
+
+.skills__conteudo figure figcaption {
+	margin-top: 1rem;
+	font-weight: bold;
+	color: var(--color__black)
+}

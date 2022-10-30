@@ -1,0 +1,12 @@
+.sobre__conteudo p b {
+	color: var(--color__purple)
+}
+
+.sobre__conteudo a {
+	display: inline-block;
+	margin: 2rem 1rem 0 0
+}
+
+.sobre__conteudo img {
+	width: 30px
+}
