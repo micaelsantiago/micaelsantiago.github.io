@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+:root {
+	--color__black: #111;
+	--color__purple: #A118CE;
+	--color__white: #EEE;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Figtree', sans-serif;
+	background: var(--color__black);
+	color: #FFF;
+}
+
+b {
+	color: var(--color__purple);
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.container__light {
+	background: var(--color__white);
+	color: var(--color__black);
+}
+
+.container__dark {
+	background: var(--color__black);
+	color: var(--color__white);
+}
+
+.container__light,
+.container__dark {
+/*	margin: 2rem 0;*/
+	padding: 2rem 1rem;
+}
+
+.line__text {
+	width: 20px;
+	height: 3px;
+	background-color: #a118ce;
+	margin-bottom: 2rem;
+}

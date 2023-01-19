@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+	.header .header__nav ul {
+		display: flex;
+	}
+
+	.menu__mobile,
+	#close__menu {
+		display: none;
+	}
+
+	.header .header__nav ul li a:hover {
+		color: var(--color__purple);
+	}
+}
