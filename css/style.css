@@ -218,14 +218,17 @@
 .certifications__container figure img {
 	width: 100%;
 	height: 202px;
-	object-fit: cover;
 	border-radius: 8px;
 }
 
 .certifications__container figure figcaption {
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 19px;
 	margin: .5rem 0;
+}
+
+.certifications__container figure span {
+	font-size: 14px;
 }
 
 @keyframes typewriter {
