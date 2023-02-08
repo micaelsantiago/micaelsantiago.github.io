@@ -135,12 +135,12 @@
 	border-radius: 8px;
 	background: var(--color__white);
 	cursor: pointer;
-	transition: all 0.4s ease-in;
+	/* transition: all 0.4s ease-in; */
 }
 
-.skills__container figure:hover {
+/* .skills__container figure:hover {
 	background: var(--color__purple);
-}
+} */
 
 .skills__container figure img {
 	width: 40px;
