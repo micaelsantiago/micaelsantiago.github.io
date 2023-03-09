@@ -3,247 +3,135 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-	<meta name="author" content="Micael Santiago">
-	<meta name="description" content="Sou programador Front-End sempre afim de resolver problemas!">
-	<meta name="keywords" content="Programador, Desenvolvedor, Web, Front-End, Dev, HTML, CSS, JavaScript, TailwindCSS, Freelancer">
 	<link rel="stylesheet" href="./css/global.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/medias.css">
 	<title>Micael Santiago | Front-End Developer</title>
 </head>
 <body>
-	<header>
-		<div class="header container__dark container">
-			<span class="header__logo">Micael</span>
-			
-			<nav class="header__nav" id="nav">
-				<div class="menu__mobile">
-					<img src="images/menu.svg" alt="">
+	<div class="models">
+		<div class="project">
+			<img src="" alt="">
+
+			<div class="project__description">
+				<h4></h4>
+				<p></p>
+				
+				<div class="links">
+					<a href=""></a>
+					<a href=""></a>
 				</div>
-			
-				<ul id="menu">
-					<li id="close__menu">&times;</li>
-					<li><a href="#about">Sobre mim</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#projects">Projetos</a></li>
-					<li><a href="#certifications">Certificações</a></li>
-				</ul>
-			</nav>
+			</div>
 		</div>
+	</div>
+	
+	<header class="container">
+		<nav class="menu">
+			<input type="checkbox" class="menu__fakeTrigger" id="menuCheckbox">
+
+			<div class="menu__lines">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<ul>
+				<li><a href="#about-me">Sobre mim</a></li>
+				<li><a href="#techs">Tecnologias</a></li>
+				<li><a href="#projects">Projetos</a></li>
+				<li><a href="#contacts">Contatos</a></li>
+				<li id="social">
+					<a href="mailto:santiagoo.micael04@gmail.com" target="_blank"><img src="./img/icons/gmail.svg" alt=""></a>
+					<a href="https://github.com/micaelsantiago" target="_blank"><img src="./img/icons/github_W.svg" alt=""></a>
+					<a href="https://www.linkedin.com/in/micael-santiago-959830210/" target="_blank"><img src="./img/icons/linkedin.svg" alt=""></a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
-	<main>
-		<section>
-			<div class="presentation container">
-				<h1>Micael Santiago</h1>
-				<p>Programador Front-End e entusiasta da tecnologia! 👨🏻‍💻💜</p>
-				<a href="./pdf/CV.pdf" download="CV Micael Santiago">Me conheça melhor!</a>
+	<main class="container">
+		<section class="section__apresentation" id="apresentation">
+			<div class="section__apresentation--text">
+				<h1>Me chamo <span>Micael Santiago</span>.</h1>
+				<span>Front-End Developer</span>
+				
+				<a href="./pdf/CV.pdf" download="CV Micael Santiago" class="button">Baixar CV</a>
+			</div>
+
+			<div class="section__apresentation--image">
+				<img src="./img/images/programming-animate.svg" alt="">
 			</div>
 		</section>
 
-		<section id="about" class="container__light">
-			<div class="about container">
+		<section class="section__about" id="about-me">
+			<div class="title">
 				<h2>Sobre mim</h2>
-				<div class="line__text"></div>
-				<p>Meu nome é <b>Micael Santiago</b> e sou <b>Desenvolvedor Front-End</b>. Conheci essa área aos <b>15 anos</b> e desde então venho aprendendo cada dia mais sobre a Web! Meu primeiro contato com a programação foi no <b>Ensino Médio Técnico</b> onde eu cursei <b>Desenvolvimento de Sistemas</b> e primeira linguagem que tive contato foi a <b>Python</b>! 🐍</p>
+				<div class="line"></div>
+			</div>
 
-				<div class="social">
-					<a href="https://www.linkedin.com/in/micael-santiago-959830210/" target="_blank">
-						<img src="./images/linkedin.svg" alt="Logo da rede social LinkedIn">
-					</a>
-
-					<a href="https://github.com/micaelsantiago" target="_blank">
-						<img src="./images/github.svg" alt="Logo do Github">
-					</a>
-
-					<a href="mailto:santiagoo.micael04@gmail.com" target="_blank">
-						<img src="./images/gmail.svg" alt="Logo do Gmail">
-					</a>
-				</div>
+			<div class="description">
+				<p>Meu nome é <b>Micael Santiago</b> e sou <b>Desenvolvedor Front-End</b>. Conheci essa área aos <b>15 anos</b> e desde então venho aprendendo cada dia mais sobre a Web! Meu primeiro contato com a programação foi no <b>Ensino Médio Técnico</b> onde cursei <b>Desenvolvimento de Sistemas</b> e primeira linguagem de programação que tive contato foi <b>Python</b>! 🐍</p>
 			</div>
 		</section>
 
-		<section id="skills" class="container__dark">
-			<div class="skills container">
-				<h2>Skills</h2>
-				<div class="line__text"></div>
+		<section class="section__techs" id="techs">
+			<div class="title">
+				<h2>Tecnologias</h2>
+				<div class="line"></div>
+			</div>
 
-				<div class="skills__container">
-					<figure id="html">
-						<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-						<figcaption>HTML5</figcaption>
-					</figure>
+			<div class="description">
+				<figure>
+					<img src="./img/icons/html.svg" alt="">
+					<ficaption>HTML5</ficaption>
+				</figure>
 
-					<figure id="css">
-						<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-						<figcaption>CSS3</figcaption>
-					</figure>
+				<figure>
+					<img src="./img/icons/css.svg" alt="">
+					<ficaption>CSS3</ficaption>
+				</figure>
 
-					<figure id="js">
-						<img src="./images/javascript.svg" alt="Logo da tecnologia JavaScript">
-						<figcaption>JavaScript</figcaption>
-					</figure>
+				<figure>
+					<img src="./img/icons/javascript.svg" alt="">
+					<ficaption>JavaScript</ficaption>
+				</figure>
 
-					<figure id="tailwind">
-						<img src="./images/tailwind.svg" alt="Logo da tecnologia Tailwind CSS">
-						<figcaption>Tailwind CSS</figcaption>
-					</figure>
+				<figure>
+					<img src="./img/icons/bootstrap.svg" alt="">
+					<ficaption>Bootstrap</ficaption>
+				</figure>
 
-					<figure id="git">
-						<img src="./images/git.svg" alt="Logo da tecnologia Git">
-						<figcaption>Git</figcaption>
-					</figure>
-
-					<figure id="github">
-						<img src="./images/github.svg" alt="Logo do Github">
-						<figcaption>Github</figcaption>
-					</figure>
-				</div>
+				<figure>
+					<img src="./img/icons/git.svg" alt="">
+					<ficaption>Git</ficaption>
+				</figure>
+				
+				<figure>
+					<img src="./img/icons/github_B.svg" alt="">
+					<ficaption>Github</ficaption>
+				</figure>
 			</div>
 		</section>
 
-		<section id="projects" class="container__light">
-			<div class="projects container">
+		<section class="section__projects" id="projects">
+			<div class="title">
 				<h2>Projetos</h2>
-				<div class="line__text"></div>
+				<div class="line"></div>
+			</div>
 
-				<div class="projects__container">
-					<div class="project">
-						<div class="project__image">
-							<img src="./images/projeto_calculadoraImc.png" alt="">
-						</div>
-						<div class="project__description">
-							<h3><a href="https://github.com/micaelsantiago/calculadora_imc" target="_blank">Calculadora IMC</a></h3>
-							<p>Projeto de uma calculadora de IMC!</p>
-							<div class="techs">
-								<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-								<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-								<img src="./images/javascript.svg" alt="Logo da tecnologia JavaScript">
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project__image">
-							<img src="./images/projeto_cronometro.png" alt="">
-						</div>
-						<div class="project__description">
-							<h3><a href="https://github.com/micaelsantiago/Cronometro" target="_blank">Cronômetro</a></h3>
-							<p>Projeto de um cronômetro!</p>
-							<div class="techs">
-								<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-								<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-								<img src="./images/javascript.svg" alt="Logo da tecnologia JavaScript">
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project__image">
-							<img src="./images/projeto_nftCard.png" alt="">
-						</div>
-						<div class="project__description">
-							<h3><a href="https://github.com/micaelsantiago/Frontend_Mentor-NFT" target="_blank">NFT Card</a></h3>
-							<p>Projeto de um cartão NFT!</p>
-							<div class="techs">
-								<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-								<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project__image">
-							<img src="./images/projeto_cardResponsivo.png" alt="">
-						</div>
-						<div class="project__description">
-							<h3><a href="https://github.com/micaelsantiago/cards_responsivos" target="_blank">Cards Responsivos</a></h3>
-							<p>Projeto de cartões responsivos usando Flexbox!</p>
-							<div class="techs">
-								<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-								<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project__image">
-							<img src="./images/projeto_productCard.png" alt="">
-						</div>
-						<div class="project__description">
-							<h3><a href="https://github.com/micaelsantiago/ProductPreviewCardComponent" target="_blank">Product Card</a></h3>
-							<p>Projeto de um cartão de produto!</p>
-							<div class="techs">
-								<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-								<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project__image">
-							<img src="./images/projeto_qrCode.png" alt="">
-						</div>
-						<div class="project__description">
-							<h3><a href="https://github.com/micaelsantiago/Frontend_Mentor-QRCode" target="_blank">Cartão de QRCode</a></h3>
-							<p>Projeto de um cartão de produto!</p>
-							<div class="techs">
-								<img src="./images/html5.svg" alt="Logo da tecnologia HTML5">
-								<img src="./images/css3.svg" alt="Logo da tecnologia CSS3">
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<p>Para mais projetos, <a href="https://github.com/micaelsantiago" target="_blank">acesse o meu repositório no Github!</a></p>
+			<div class="projects__container">
+				<!-- models -->
 			</div>
 		</section>
 
-		<section id="certifications" class="container__dark">
-			<div class="certification container">
-				<h2>Certificações</h2>
-				<div class="line__text"></div>
+		<section class="section__contacts" id="contacts"></section>
 
-				<div class="certifications__container">
-					<figure>
-						<img src="./images/certificado1.jpg" alt="Imagem de um certificado">
-						<figcaption>HTML5 e CSS3</figcaption>
-						<span>Curso da <b>B7Web</b> com carga horária de <b>89 horas</b>.</span>
-					</figure>
-
-					<figure>
-						<img src="./images/certificado2.jpg" alt="Imagem de um certificado">
-						<figcaption>Lógica de Proramação Essencial</figcaption>
-						<span>Curso da <b>Digital Innovation One</b> com carga horária de <b>6 horas</b>.</span>
-					</figure>
-
-					<figure>
-						<img src="./images/certificado3.jpg" alt="Imagem de um certificado">
-						<figcaption>Introdução a Criação de Websites com HTML5 e CSS3</figcaption>
-						<span>Curso da <b>Digital Innovation One</b> com carga horária de <b>6 horas</b>.</span>
-					</figure>
-
-					<figure>
-						<img src="./images/certificado4.jpg" alt="Imagem de um certificado">
-						<figcaption>Projeto Dev</figcaption>
-						<span>Curso da <b>Kenzie Academy</b> com carga horária de <b>10 horas</b>.</span>
-					</figure>
-
-					<figure>
-						<img src="./images/certificado5.jpg" alt="Imagem de um certificado">
-						<figcaption>Desenvolvedor de Software Web em Front-End em Análise de Dados</figcaption>
-						<span>Curso da <b>ETE José Joaquim da Silva Filho</b> através do <b>Programa de Extensão Tecnológica - PET</b> da <b>FACEPE/SECTI</b> com carga horária de <b>40 horas</b>.</span>
-					</figure>
-
-					<figure>
-						<img src="./images/certificado6.jpg" alt="Imagem de um certificado">
-						<figcaption>Estudante Extensionista Bolsista</figcaption>
-						<span>Bolsista do <b>Projeto de Extensão Tecnológica - PET</b> intitulado <b>"Desenvolvimento de Software Web em Front-End para Análise de Dados"</b> com carga horária de <b>70 horas</b>.</span>
-					</figure>
-				</div>
-			</div>
-		</section>
+		<footer>
+			<!-- <a href="https://storyset.com/web">Web illustrations by Storyset</a> -->
+		</footer>
 	</main>
-	<script src="js/scripts.js"></script>
+
+	<script src="./js/projetosJson.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 </html>
